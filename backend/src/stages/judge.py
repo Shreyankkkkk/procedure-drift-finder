@@ -1,8 +1,3 @@
-"""judge.py: builds the prompt (note + 3 candidate steps), sends it to the model endpoint, parses the fixed-format reply.
-Input: note and 3 steps. Output: a proposed flag (step, drift type, quote) or no flag.
-
-Status: empty skeleton, code comes in the build stage listed in STATE.md.
-"""
 """judge.py: asks the AI model whether a note drifts from the SOP steps shown to it.
 
 Same job as motors.cpp in the sumo robot: this is the one file that talks to
